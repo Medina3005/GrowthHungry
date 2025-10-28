@@ -66,5 +66,5 @@
 # y = "Hello"
 # print(dir())
 
-name = "Alina"
-print(dir(name))
+# name = "Alina"
+# print(dir(name))
