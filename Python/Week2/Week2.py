@@ -336,3 +336,4 @@ a = 8
 b = 0.78
 c = "book"
 print("a is : %d, b is %0.4f, c is %s" % (a,b,c))                 #d means decimal number , .f - %0.4f - show number after duts. %s - show string 
+

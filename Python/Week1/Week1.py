@@ -62,9 +62,9 @@
 # dir() - The dir() function in Python is one of the built-in helper tools — 
 # it shows you everything that’s available inside an object, module, or your current environment.
 
-x = 5
-y = "Hello"
-print(dir())
+# x = 5
+# y = "Hello"
+# print(dir())
 
 # name = "Alina"
 # print(dir(name))
