@@ -332,8 +332,32 @@
 # print(num % decimalnum)                                            
 
 
-a = 8
-b = 0.78
-c = "book"
-print("a is : %d, b is %0.4f, c is %s" % (a,b,c))                 #d means decimal number , .f - %0.4f - show number after duts. %s - show string 
+# a = 8
+# b = 0.78
+# c = "book"
+# print("a is : %d, b is %0.4f, c is %s" % (a,b,c))                 #d means decimal number , .f - %0.4f - show number after duts. %s - show string 
+
+
+
+# Project:
+# Basic Tip Calculator. Write a program that asks for the total bill amount and the tip percentage. It should then calculate and
+# display the tip amount and the total bill including the tip.
+# Advanced: You can also ask for a name (using input()) and print the total amount with that name in it.
+# Solve the problems in list1.py in the provided python_exercises folder that do not use sorting
+
+name = input("Enter your name: ")
+print(name)
+
+total_amount = float(input("Enter total amount:"))
+print(total_amount)
+tip_percent = int(input("Please choose your tip %: "))
+print(tip_percent)
+
+
+tip = (total_amount * tip_percent) / 100
+total_bill = total_amount + tip
+total_bill = round(total_bill, 2)
+print("Your total bill amount is:", total_bill, "with", str(tip_percent) + "%", "tip:", tip)
+
+
 
