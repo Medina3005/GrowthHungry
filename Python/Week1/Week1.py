@@ -20,25 +20,25 @@
 #     print("x is 1")
 
 
-# def my_function():
-#     print("Hello, Klara and Welcome to Emirway LLC!")
+def my_function():
+    print("Hello, Klara and Welcome to Emirway LLC!")
 
-# def some_function_in_my_name():
-#     print("Welcome Medina!")
+def some_function_in_my_name():
+    print("Welcome Medina!")
 
-# my_function()   #I'm calling function here
+my_function()   #I'm calling function here
 
 # %s - we put this initial to make a space for our arguments. 
 
 
-# def my_function_with_args(username, greeting):
-#     print("Hello, %s , From My Function!, I wish you %s"%(username, greeting)) 
+def my_function_with_args(username, greeting):
+    print("Hello, %s , From My Function!, I wish you %s"%(username, greeting)) 
 
-# def greeting_function(name, extra_word):
-#     print("Hello, " + name + ". Welcome and " + extra_word)
+def greeting_function(name, extra_word):
+    print("Hello, " + name + ". Welcome and " + extra_word)
 
-# my_function_with_args("Medina", "a wonderful day")
-# greeting_function("Medina", "bye bye")
+my_function_with_args("Medina", "a wonderful day")
+greeting_function("Medina", "bye bye")
 
 
 # def sum_two_numbers(a, b):

@@ -1,0 +1,119 @@
+What We Will Discuss Today
+
+Terminal
+
+Common Commands
+
+Vim
+
+Coding Tasks
+
+
+Terminal
+
+The Terminal is an app that lets you communicate with your operating system using a command-line interface (CLI).
+You enter commands and scripts (called shell scripts) to perform tasks on your computer.
+
+Two other terms that you might hear in combination with the terminal:
+
+A shell is the program that you interact with when running commands in a terminal.
+
+For Linux, it’s most likely Bash, for newer macOS versions it’s Zsh, and for Windows it’s PowerShell.
+These shells differ in their features but share most of the basic commands.
+
+A command - line interface (CLI) is a program designed to run in a shell inside the terminal.
+
+
+
+Why Use Terminal?
+
+Faster
+
+To perform actions not supported by the operating system’s graphical user interface (GUI)
+
+Automate repetitive tasks and create scripts to manage your development workflow (e.g., running tests or deploying apps)
+
+Basic skill that software developers use daily
+
+
+
+Common Commands
+Command	Description
+pwd	- Print the path of the current directory
+mkdir FOLDERPATH  - Create a new directory
+touch FILEPATH - Create a new file
+clear - Clear the terminal window
+ls	- List the contents of a folder
+ls -al	- List all folder contents with detailed info
+cat - TARGET Show the content of a file
+
+
+Navigation Commands
+
+Command	Description
+cd FOLDERPATH	- Change into a directory
+cd ..	- Move into the parent directory
+echo TEXT - Print text to the terminal
+echo TEXT > TARGET - Write text into a file named TARGET
+echo TEXT >> TARGET	- Append text to an existing file
+cp SOURCE TARGET - Copy a file
+mv SOURCE TARGET - 	Move or rename a file
+python PYTHONFILE - Run a Python file
+
+
+Additional Useful Commands
+Command	Description
+grep	Search and manipulate text patterns within files
+top	Display real-time system processes and stats
+sed	Edit text files (e.g., replace words)
+find	Locate files by name in directory hierarchy
+rm	Remove files or directories
+chmod	Change file or directory permissions
+ping <host>	Check network connection to a host
+curl -O <url>	Download a file from the web
+ssh <username>@<host>	Connect to a remote server via SSH
+ls -ld	Show default permissions for home directory
+ls -ld <dir>	Show permissions of a specific folder
+
+
+
+Vim is a highly configurable text editor built to make creating and editing text efficient.
+
+Many text editors require a mouse to save or navigate.
+
+In Vim, you can edit and save files entirely from your keyboard.
+
+From insert mode, press Esc then type :w to save your file.
+
+
+
+❓ Why Vim?
+
+If you’re not doing system administration or heavy text editing, you might not need to learn Vim.
+
+However, over time, learning Vim can significantly boost productivity.
+
+
+
+How Vim Works
+
+Vim has three main modes:
+
+Insert mode – for typing text.
+
+Command mode – for executing commands like delete, move, etc.
+
+Last-line mode – for saving or exiting.
+
+When you open a file, Vim starts in command mode.
+Typing letters doesn’t insert text — instead, keys act as commands (e.g., dd deletes a line).
+
+To enter insert mode, type i. You can now type normally.
+
+To return to command mode, press Esc.
+
+To save or exit, type : to enter last-line mode, then use:
+
+:w to save
+
+:q to quit
