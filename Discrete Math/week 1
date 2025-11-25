@@ -1,0 +1,93 @@
+HW 1
+
+	Solution -> Marty’s  and Lydia’s relation will not be a function. Because both of them has 2 relations, when other has only one.  
+ 
+
+	Solution -> the correct answer will be  a   because in the second example x can not have two values, it should be just one, right now it will give one positive and one negative number. 
+ 
+
+	Solution -> First of all I would paste the meaning of Injective, Surjective and Bijective functions.  The correct answer is 2 because the graph shows that 2,3 can be defined as a. So the surjective function means that it can have 2 same outputs.
+Injective - Each input gives a different output.
+Surjective - Every output is used by at least one input.
+Bijective - Each input has its own output, and every output has one input.
+
+
+
+	Solution -> The correct answer is 1 because every input will have a different output. But in teacher’s answers says that example 3 is also can be as an injective function. Yes, but I think it also can be a bijective where each input has their own output. 
+  
+
+	Solution -> this function is correct 
+g(x) = 1/x -2
+g(f(x)) = 1/x/1/x+2  = x + 2
+g(f(x))  = (x +2) – 2 = x
+ 
+
+	Solution ->  Before that, I would like to put the meanings of Range, Domain and Inverse 
+Inverse - Inverses swap inputs and outputs.
+ The domain of f becomes the range of f^(-1). The domain = all x-values that work.
+The range of f becomes the domain of f^(-1).
+ 
+y = 2 + 2^ x -4 
+(y -2)^2 = x -4
+X = (y -2)^2 + 4  
+
+ 
+
+	Solution 
+C = 5/9(F-32) 
+C * 9/5 = F -32
+F = 9/5C + 32
+C = h(F) = 5/9(F-32)
+F = h-1(C) = 9/5*C + 32
+Formula: Farenheit -> Celsius  h(F)  , Celsius -> Farenheit h-1(C) . 
+Formula for Fahrenheit – 5/9 (F- 32) 
+Formula for Celsius = - 9/5C + 32 
+ 
+	Solution  - When x = 5, g(x) = 2
+ 
+G(X )= 2^x -4
+X = any number that bigger than 4, x = 5
+G(5) = 2^5-4
+G(5) = 2^1
+ ^1  = 1
+G(5) = 2 * 1 = 2 
+
+	Solution - Description - A coefficient is the number that’s in front of a variable (like x, y, etc.) in a math expression. A parabola is the U-shaped graph of a quadratic function. the vertex is the highest or lowest point on the graph
+ 
+A = -2
+B = 4
+Formula – x = - b/2a 
+X = -4/2*(-2) = -4/4 = 1
+Now we find y value 
+H(1) = -2(1)^2 + 4(1) – 9(1) 
+H(1) = -2 + 4 – 9 = -7 
+So the vertex is at (1,-7) 
+
+	Solution 
+X^2 – 2x – 15 = 0
+(x-5)(x+3) = 0 
+x-5 = 0	x + 3 = 0
+x = 5	x = -3
+f(x) = x – 4x^2 – 2x -15 
+
+ 
+
+
+	Solution 
+G(x) = 2^x-4
+Y = 2^x-4
+X = (y-2)^2 + 4
+ 
+
+
+	Solution
+ 
+	2x + 1 for -1 < x < 0
+	X = 0 				f(0) = -2(0) + 1 = 1
+	Point(0,1)
+When x <0 , not <= 0
+Will be open circle not the filled in 
+F(x) = x^2 +2 for 0 <= x <= 2
+X = 0 -> formula
+F(0) = 0 ^ 2 + 2 = 2
+Point (0,2) filled in on the graph 
