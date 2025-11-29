@@ -1,0 +1,224 @@
+IDE Overview.
+Version control and Git. Basic Git commands.
+
+Whatwe will dicsuss today 
+
+Last hw session recap
+IDE Overview
+IDE is Terminal
+Version control and Git
+Git vs GitHub
+Basic Git commandds demo via IDE or terminal
+Coding tasks
+
+
+Terminal
+
+Terminal is an app that lets you communicate with your operating system using a command-line interface (CLI).
+You enter commands and scripts (called shell scripts) to perform tasks on your computer.
+Two other terms you might hear with the terminal:
+Shell
+A shell is the program you interact with when running commands in a terminal.
+For Linux, it’s most likely Bash.
+For newer macOS versions, it’s Zsh.
+For Windows, it’s PowerShell.
+These shells differ in their features, but they share most basic commands.
+Command-Line Interface (CLI)
+A CLI is a program designed to run inside a shell within the terminal.
+
+
+| Command            | Description                                      |
+| ------------------ | ------------------------------------------------ |
+| `pwd`              | Print the path of the current directory          |
+| `mkdir FOLDERPATH` | Create a new directory                           |
+| `touch FILEPATH`   | Create a new file                                |
+| `clear`            | Clear the terminal window                        |
+| `ls`               | List the contents of a folder                    |
+| `ls -al`           | List all contents of a folder with detailed info |
+| `cat TARGET`       | Show the content of TARGET                       |
+
+
+
+| Command               | Description                       |
+| --------------------- | --------------------------------- |
+| `cd FOLDERPATH`       | Change into a directory           |
+| `cd ..`               | Change into the parent directory  |
+| `echo TEXT`           | Print TEXT to the terminal        |
+| `echo TEXT > TARGET`  | Print TEXT to a file named TARGET |
+| `echo TEXT >> TARGET` | Append TEXT to TARGET             |
+| `cp SOURCE TARGET`    | Copy SOURCE to TARGET             |
+| `mv SOURCE TARGET`    | Rename or move SOURCE to TARGET   |
+| `python PYTHONFILE`   | Run PYTHONFILE                    |
+
+
+
+Notes about paths
+
+You can use cd with a relative path to navigate to a subfolder.
+This is convenient because you don’t need to specify the full path from the root directory.
+You can also change into any directory using a complete (absolute) path.
+
+
+| Command | Description                                                                                |
+| ------- | ------------------------------------------------------------------------------------------ |
+| `grep`  | Search and manipulate text patterns within files                                           |
+| `top`   | Provides a dynamic real-time view of a running system (system summary, processes, threads) |
+| `sed`   | Used to edit text files, commonly to replace occurrences of words                          |
+| `find`  | Locate files by name and identify specific files within a directory hierarchy              |
+
+
+
+| Command                 | Description                                                       |
+| ----------------------- | ----------------------------------------------------------------- |
+| `rm`                    | Remove files or directories                                       |
+| `chmod`                 | Change the access mode of a file or directory                     |
+| `ping <host>`           | Ping a host and display its status                                |
+| `curl -O <url/to/file>` | Download a file using HTTP, HTTPS, or FTP                         |
+| `ssh <username>@<host>` | Establish an SSH connection to `<host>` with user `<username>`    |
+| `ls -ld`                | Display the default permission for a home directory               |
+| `ls -ld <dir>`          | Display read, write, and access permission of a particular folder |
+
+
+
+Vim
+
+Vim is a highly configurable text editor built to make creating and changing text very efficient.
+Key points:
+Many text editors or word processors require the mouse to click menus or use key combinations like Ctrl + S to save a file.
+In Vim, you can save a file without your hands leaving the keyboard, sometimes without even leaving the home keys.
+From Vim’s insert mode, press:
+Esc
+:w
+
+
+IDE (Integrated Development Environment)
+An IDE is a software application that helps programmers develop software code.
+IDEs combine many developer tools into a single graphical user interface (GUI), making development more efficient and productive.
+Examples of IDEs:
+Eclipse
+NetBeans
+Visual Studio Code (great for front-end)
+IntelliJ (best for Java)
+Atom (very lightweight, good for simple tasks)
+
+
+Common Features of an IDE
+
+Source code editor
+A text editor that helps write code with features like syntax highlighting, auto-completion, and bug checking.
+Local build automation
+Tools to automate tasks like compiling code, packaging binary code, and running automated tests.
+Debugger
+A program that tests other programs and shows the location of bugs in the original code.
+Code introspection
+Tools to learn more about a function or class member.
+Documentation features
+Tools that help with documentation.
+Language syntax tools
+Tools to correct coding problems.
+
+
+IDE vs Terminal
+
+IDE and a terminal are both tools that programmers use.
+
+IDE
+
+Includes a code editor, compiler, and debugger, all via a graphical user interface (GUI).
+
+Easier to spot and debug errors.
+
+Easier to manage project files.
+
+Terminal
+Requires users to enter lines of code in a command-line interface to perform tasks
+Usually faster than IDEs for executing tasks and commands.
+Available on every machine, while IDEs may not be.
+Common points
+Both offer many customization options, such as themes, text colors, backgrounds, and shortcuts.
+Best approach: Use the benefits of both IDEs and terminals depending on the project or task at hand.
+
+
+Version Control
+
+Version control (also called source control or revision control) is a software engineering practice that tracks and manages changes to files over time.
+Benefits:
+Help manage changes to files (especially source code) by taking snapshots as files are edited and saving them permanently.
+Allows tracking of changes: Users can see the history of a file and roll back to previous versions if needed.
+Identify and resolve conflicts: Makes visual file conflict management much easier.
+Collaborate: Enables collaboration and code review.
+Audit trail: Provides a full audit trail for every stage of the development cycle for all contributors.
+
+
+Git
+
+Git is a free, open-source version control system (VCS) used for software development.
+It is the modern standard for version control.
+Used by many teams worldwide.
+
+
+Features of Git
+
+Distributed
+Each developer has their own local copy of the repository, including the full history of the code.
+This allows fast operations like merging, committing, and branching.
+Branches
+Developers can create copies of their source code (branches) and work on them in parallel to the main version.
+Snapshots
+Git takes a snapshot of every commit and compares it to previous versions (called a diff).
+If there are changes, Git stores a new snapshot in the repository.
+Flexibility
+Git supports a wide range of workflows for different software teams.
+
+
+Git vs GitHub
+
+Both are used for managing code, but they have important differences:
+Type
+Git is a free, open-source version control tool installed locally.
+GitHub is a cloud-based service that runs Git.
+Purpose
+Git tracks changes in files.
+GitHub stores, shares, and helps collaborate on code.
+Relationship
+Git and GitHub work together, but you do not need GitHub to use Git.
+Alternatives to GitHub
+GitLab, Bitbucket, Gogs, Gitea.
+
+
+Basic Git Commands
+Create repositories
+git init
+
+Make changes
+git add
+git commit
+git status
+
+Parallel development
+git branch
+git merge
+git rebase
+
+Sync repositories
+git push
+git pull
+git add origin
+many others
+
+
+What We’ve Covered
+
+IDE overview
+IDE vs Terminal
+Version control and Git
+Git vs GitHub
+Basic Git commands demo via IDE or terminal
+
+
+Coding Tasks Till Next Week
+
+(Recommended but optional)
+Set up your GitHub and create repositories for this and other courses.
+Submit first files (homeworks, tests, or anything related to the course).
+
