@@ -119,15 +119,12 @@ Tools to correct coding problems.
 
 
 IDE vs Terminal
-
 IDE and a terminal are both tools that programmers use.
 
 IDE
 
 Includes a code editor, compiler, and debugger, all via a graphical user interface (GUI).
-
 Easier to spot and debug errors.
-
 Easier to manage project files.
 
 Terminal
@@ -142,7 +139,7 @@ Best approach: Use the benefits of both IDEs and terminals depending on the proj
 Version Control
 
 Version control (also called source control or revision control) is a software engineering practice that tracks and manages changes to files over time.
-Benefits:
+Benefits: 
 Help manage changes to files (especially source code) by taking snapshots as files are edited and saving them permanently.
 Allows tracking of changes: Users can see the history of a file and roll back to previous versions if needed.
 Identify and resolve conflicts: Makes visual file conflict management much easier.
@@ -188,22 +185,22 @@ GitLab, Bitbucket, Gogs, Gitea.
 
 Basic Git Commands
 Create repositories
-git init
+git init  - Create a new repository
 
 Make changes
-git add
-git commit
-git status
+git add  - Stage every changed file in this folder so my next commit includes everything.
+git commit - Save changes to repo history
+git status - Show what has changed
 
 Parallel development
-git branch
-git merge
-git rebase
+git branch - manage branches
+git merge - combine branches
+git rebase - reapply commits on top of another branch
 
 Sync repositories
-git push
-git pull
-git add origin
+git remote add origin - connect to GitHub
+git push - upload to GitHub
+git pull - download updates from GitHub
 many others
 
 
@@ -221,4 +218,6 @@ Coding Tasks Till Next Week
 (Recommended but optional)
 Set up your GitHub and create repositories for this and other courses.
 Submit first files (homeworks, tests, or anything related to the course).
+
+
 
