@@ -1,1 +1,63 @@
-week 3
+SCRIPTING 
+
+What we will discuss today
+-last hw and session recap
+-What is scripting?
+-Scripting vs Programming
+-How are scripting languages used?
+-Examples of scripting languages
+-Bash
+-Bash commands
+-Coding tasks
+
+
+What is Scripting?
+-providing instructions to a computer so u can tell it what to do and to do it.
+-or, code used to automate processes that would otherwise need to be executed step-by-step by developer. 
+-Scripting language is a type of programming language that allows controlling one or more applications. 
+
+
+Scripting vs Programming language
+-A scripting language remains in its raw form until runtime, where it's submitted to a translator.
+The translator interprets the commands one at a time,turning them into machine code that
+can be used by the processor(CPU)
+-Because scripting languages are not compiled in advance, they might not perform as well as conventional languages
+
+
+Scripting VS Programming language 
+-Scripting languages are dependent on other programs. You cannot use them to build independant applications 
+like you can with conventional languages. 
+-Scripting languages tend to provide less direct control over the hardware. With conventional language, programmers
+can more easily manage processor, memory and input/output resources.
+-Scripting languages are generally easier to work with than conventional programming languages.
+
+BUT scripting languages and their tranlators have evolved over time, and the lines between
+what should and what should not be classified as a scripting language have begun to blur. 
+Today, many will say the classification is done by how the language is being used. 
+
+
+How are scripting languages used?
+-Scripting languages are often catrgorized as either server-side or client-side.
+-Server-side scripting languages - such as PHP, Ruby and Python -- are processed on the host server
+(where your app is, not visible to users).
+-Clientside scripting languages - such as Javascript, Hypertext Markup Language and Cacading Style Sheets--
+--are processed on the user's computer, typicallywithin a browser.
+
+    - For this reason, websites often require users to configure their browsers to permit clinet-side scripts 
+        to run. Otherwise, certain webpage features might not work.
+    - They are used in multimedia and gaming, to automate tasks within applications, system administration, 
+        reporting, statistics and etc. 
+
+
+Examples of scripting languages
+    -AppleScripts. A scripting language developed by Apple for building small programs called applets that
+perform like bots. The applets can autom=nomously process and manage multimedia data, 
+including digital video, text web content.
+-Bourne shell. The original Unix shell, which is also known by its program name, sh.
+-Bash.The free version of the Bourne shell distributed with Linux and GNU operating systems.
+-C shell.Shell scripts and platform that was invented for programmers who prefer 
+a syntax similiar to that of the C programming language.
+-Javascript. Developed by Netscape. Shares similiar capabilities to those of Microsoft's Visual Basic,
+ Unix-derived and IBM'S Rexx.
+
+ 
