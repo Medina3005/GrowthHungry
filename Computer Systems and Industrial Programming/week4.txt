@@ -1,2 +1,95 @@
 Debugging 
 
+What we will discuss today
+
+-Q's about the last week's homework
+- What is debugging?
+- Why learn to debug?
+- General debugging procedure
+- Types of debugging 
+     -Breakpoints
+     -Steping Into, Over, Out
+     -Data Inspection
+
+- Coding tasks
+
+
+Questions about the last weeks's homework?
+
+-Write a script automatically push to your Github repo every new file appearing in your local directory (related to the course)
+
+
+Debugging
+- identifying and removing errors from hardware or software.
+- finding the root cause workarounds and possible fixes for bugs
+- Examples: interactive debugging, control flow analysis, log file analysis, monitoring at the application 
+or system level, memory dumps, and profiling
+
+
+Why learn to debug?
+1. Find a root cause: Cuze your production code is failing.
+2. Simple debugging is using print statements. But  how far it can take you? Especially if your system setup is complex:
+backend+database+API+fronted+many other components.
+3. You will train your intutition following well-defined patterns: Majority of bugs can be quickly 
+inspected and fixed using modern tools. Knowing which tools to use and how use saves lots of time in future.
+
+
+Assumption: You've installed Intelli J for your other class
+If you want, you can follow this installation  guide:
+
+https://www.jetbrains.com/help/idea/installation-guide.html
+
+
+General debugging procedure
+1. Define where the program needs to be stopped.
+This is done using breakpoints.
+1.1 The alternative to using breakpoints is manually suspending the program at an arbitary moment.
+2. Run your program in debug mode.
+2.1 Just like with regular running of the program, you can run multiple debugging sessions at the same time.
+3. After the program has been suspended, use the debugger to get the information about the state of the program and how it changes.
+3.1 information about website variable values, the current state of the threads, breakdown of objects that are 
+currently in the heap, and so on.
+4. Stepping feature gives you the control over step-by-step execution of the program.
+5. When you have determined what needs to be fixed, you can do it without terminating the session. 
+
+
+Debugging type-Breakpoints (checking code during runtime)
+1. Pause a program using a breakpoint in Intellij Just
+a. Special markers that suspend program execution at a specific point. This lets you examine the program state behavior. 
+
+void print() {
+    System.out.println("Printing to console");
+}
+
+Debugging type-Stepping Into, Over, Out
+1. Works together with breakpoints
+2. Controls how you run through a paused program, i.e step or walk
+3. Step into: run the current line and move to the next line in the sane function or calling function
+4. Step over: move into to the next function or method call in the present line
+5. Step out: run the rest of the current function and pause at the return point to the calling function. 
+
+
+Let's debug a code 
+
+Let's debug a code
+public class AverageFinder {
+public static void main(String[] args) {
+System.out.println("Average finder v0.1");
+double avg = findAverage(args);
+System.out.println("The average is " + avg);
+}
+private static double findAverage(String[] input) {
+double result = 0;
+for (String s : input) {
+result += Integer.parseInt(s);
+}
+return result;
+}
+}
+
+
+Coding tasks till next week ('*' recommended but optional)
+- Add breakpoints into your Java code (from the other course) and step in/out
+of your functions and inspect changing variable values in Intellij or similar IDE. 
+
+
